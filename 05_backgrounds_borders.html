@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backgrounds and Borders</title>
+    <style>
+        #box-1 {
+            background-color: blanchedalmond;
+            /* border-width: 3px;
+            border-color: red;
+            border-style: solid; */
+            border: 3px solid red;
+            border-radius: 10px;
+        }
+
+        #box-2 {
+            background: #333;
+            color:#fff;
+            border-top: blue solid 3px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        #box-3 {
+            /* background-image: url('./img/stars.jpg');
+            background-repeat: no-repeat;
+            background-position: 100px 100px;
+            background-position: center center;
+            background-position: center top;
+            background-size: cover; */
+            background: url('./img/stars.jpg') no-repeat center center/cover;
+            color: #fff;
+            height: 300px;
+            width: 600px;
+        }
+
+        #box-4 {
+            background: url('./img/leaf.png') no-repeat center center;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <div id="box-1">
+        <h3> Box one</h3>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit veniam minus architecto porro rerum numquam ad aperiam dignissimos id dolor!</p>
+    </div>
+    <br>
+    <div id="box-2">
+        <h3>Box Two</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic officiis expedita a aliquid amet iusto temporibus soluta in illo nesciunt.</p>
+    </div>
+    <div id="box-3">
+        <h3>Box Three</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quisquam assumenda placeat facilis alias quo nisi voluptate ad quod vitae!</p>
+    </div>
+    <div id="box-4">
+        <h3>Box Four</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quisquam assumenda placeat facilis alias quo nisi voluptate ad quod vitae! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem ipsum quis at. Consequuntur aperiam aspernatur harum ea illum libero cumque natus totam, tempora quod impedit. Beatae modi sint aspernatur quae commodi distinctio nobis vitae aut harum officia numquam iusto cupiditate voluptatibus possimus dignissimos ipsa autem, aliquid sunt amet, inventore maxime velit asperiores! Ab eligendi, nulla alias omnis libero autem explicabo aut ipsam optio accusantium animi iure sequi dolorem! Sint culpa aliquid exercitationem. Laboriosam voluptatibus facilis ad et, deleniti odio quisquam incidunt eligendi modi ut culpa doloremque obcaecati unde quam, placeat similique repellat eum consequuntur, suscipit at nihil? Libero, incidunt ipsa.</p>
+    </div>
+</body>
+</html>
