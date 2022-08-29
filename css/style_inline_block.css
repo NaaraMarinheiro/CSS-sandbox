@@ -1,0 +1,24 @@
+li {
+    display:inline;
+}
+
+li a {
+    padding-right: 20px;
+}
+
+/* Um elemento, no caso a imagem, precisa está em block level para que o margin auto funcione. Porque o margin auto não funciona com elementos inline */
+img {
+    display: block;
+    margin: auto;
+}
+
+.box {
+    width: 32.8%;
+    /* display: inline; -> Não se pode usar display em elementos inline */
+    display: inline-block;
+    box-sizing: border-box;
+    background: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
