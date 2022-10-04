@@ -1,0 +1,40 @@
+li {
+    padding: 0.25rem;
+    margin: 0.25rem;
+    list-style: none;
+  }
+
+  /* first-child */
+  li:first-child {
+    background: red;
+  }
+
+  /* last-child */
+  li:last-child {
+    background: blue;
+  }
+
+  /* position 3 */
+  li:nth-child(3) {
+    background: purple;
+  }
+
+  /* Every 3 */
+  li:nth-child(3n + 0) {
+    background: orange;
+  }
+
+  /* Every 3 after seven */
+  li:nth-child(3n + 7) {
+    background: yellow;
+  }
+
+  /* Every odd (impar)*/
+  li:nth-child(odd) {
+    background: #ccc;
+  }
+
+  /* Every even */
+  li:nth-child(even) {
+    background: #ddd;
+  }
